@@ -1,0 +1,26 @@
+Indicator,WhyItMatters,SuggestedAction,Severity
+READ_SMS permission,Can intercept 2FA codes and sensitive messages,Flag for manual review,Critical
+SEND_SMS permission,Can send premium SMS or spam,Block installation,Critical
+ACCESSIBILITY_SERVICE permission,Can control other apps and steal data,Block installation,Critical
+REQUEST_INSTALL_PACKAGES permission,Can install additional malicious apps,Block installation,Critical
+READ_CONTACTS permission,Can harvest personal information,Flag for review,High
+READ_CALL_LOG permission,Can access call history,Flag for review,High
+RECORD_AUDIO permission,Can record conversations,Flag for review,High
+READ_PHONE_STATE permission,Can collect device identifiers,Flag for review,Medium
+WRITE_EXTERNAL_STORAGE permission,Can access user files,Review necessity,Medium
+ACCESS_FINE_LOCATION permission,Can track user location,Review necessity,Medium
+Developer info missing,Unknown developer credibility,Investigate further,High
+Very few reviews,Potential fake app,Flag for review,Medium
+Suspicious app description,May indicate malicious intent,Flag for review,Medium
+High obfuscation ratio,Attempting to hide functionality,Require source code review,High
+Dynamic code loading,Can download additional payloads,Block installation,Critical
+WebView with JavaScript,Can display fake login pages,Review implementation,High
+Custom URL schemes,Potential for phishing attacks,Review implementation,Medium
+Certificate pinning bypass,Can intercept encrypted traffic,Flag for review,High
+Fake OAuth implementation,Can steal credentials,Block installation,Critical
+Ad fraud indicators,Generating fake ad revenue,Flag for review,Medium
+Permission mismatches,Functionality doesn't match permissions,Flag for review,High
+Excessive permissions,More than needed for functionality,Review necessity,Medium
+Hidden services,Background services not mentioned,Investigate further,Medium
+Network anomalies,Suspicious traffic patterns,Monitor and investigate,High
+Data exfiltration,Sending data to unknown servers,Block installation,Critical
